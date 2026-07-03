@@ -26,35 +26,24 @@ los indicadores del proyecto.
 <img width="547" height="281" alt="image" src="https://github.com/user-attachments/assets/9a6b072b-1838-4e0e-99ad-5c6b5be22655" />
 
 📁 Contenido del repositorio
-┌──────────────┐
-│  Recurrence  │
-└──────┬───────┘
-       │
-       ▼
-┌─────────────────────┐
-│ Build Table Rows    │
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│ Days to remind me   │
-└─────────┬───────────┘
-          ▼
-┌─────────────────────┐
-│ Get my profile (V2) │
-└─────────┬───────────┘
-          ▼
-┌───────────────────────────────────┐
-│ Scope: Get items due in 1 day     │
-│ • Consultar contratos             │
-│ • Lee la tabla en SharePoint/Excel│
-│ • Enviar Outlook                  │
-│                                   │
-└─────────┬─────────────────────────┘
-          │
-     Error│
-          ▼
-┌───────────────────────────────┐
-│ Couldn't send a reminder       │
-│ • Registrar error              │
-│ • Finalizar flujo              │
-└───────────────────────────────┘
+
+Recurrence
+│
+├── Build Table Rows
+│
+├── Days to remind me in
+│
+├── Get my profile (V2)
+│
+├── Scope to get items due in 1 day
+│   │
+│   ├── 
+│   ├── Obtener contratos con vencimiento en 1 día
+│   ├── Lee la tabla en SharePoint/Excel
+│   └── Enviar notificación por correo electrónico
+│
+└── Couldn't send a reminder
+    │
+    ├── Registrar error
+    ├── Notificar fallo del flujo
+    └── Finalizar ejecución
